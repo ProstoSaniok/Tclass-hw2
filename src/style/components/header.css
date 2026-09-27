@@ -1,0 +1,8 @@
+header {
+	justify-self: center;
+}
+
+/* Про not last-child я забыл как делать, поэтому спросил у нейросети */
+header > *:not(:last-child) {
+  margin-right: 10px;
+}

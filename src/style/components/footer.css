@@ -1,0 +1,36 @@
+footer {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    font-size: var(--font-size-other);
+}
+
+/* Про not last-child я забыл как делать, поэтому спросил у нейросети */
+footer > *:not(:last-child) {
+  margin-right: 15px;
+}
+
+footer div.container {
+    align-self: stretch;
+    padding: 10px 10px;
+    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+    display: flex;
+    align-items: center;
+}
+footer div.container[type="left"] {
+    flex: 1;
+    min-width: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+footer div.container[type="right"] {
+    width: min-content;
+    background-color: var(--main-color);
+    color: var(--background-color);
+}
+
+footer div.container p {
+    margin: 0;
+}
+

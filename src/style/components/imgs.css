@@ -1,0 +1,56 @@
+.background-img {
+	position: fixed;
+	inset: 0;
+	z-index: -2;
+	width: 100%;
+	height: 100%;
+	filter: saturate(0.5) contrast(1.1) brightness(0.4);
+}
+
+.logo-img {
+	display: block;
+}
+
+/*со span и svg картинкой мне помогла нейросеть*/
+/*Не использую, так как почему-то в браузере маска через span не отображается корректно*/
+/* .t-bank-logo {
+    width: 34px;
+    height: 34px;
+	background-color: var(--logo-color);
+	mask-image: url("../../../public/img/logo/t-bank.svg");
+	mask-position: center;
+	mask-repeat: no-repeat;
+	mask-size: contain;
+	mask-mode: luminance;
+	-webkit-mask-image: url("../../../public/img/logo/t-bank.svg");
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+}
+.prosto-saniok-logo {
+	width: 124px;
+	height: 34px;
+	background-color: var(--logo-color);
+	mask-image: url("../../../public/img/logo/prosto-saniok.svg");
+	mask-position: center;
+	mask-repeat: no-repeat;
+	mask-size: contain;
+	mask-mode: luminance;
+	-webkit-mask-image: url("../../../public/img/logo/prosto-saniok.svg");
+	-webkit-mask-position: center;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-size: contain;
+} */
+
+.t-bank-logo {
+    width: 34px;
+    height: 34px;
+	/* background-color: var(--logo-color);
+	background-image: url("../../../public/img/logo/t-bank.svg"); */
+}
+.prosto-saniok-logo {
+	width: 124px;
+	height: 34px;
+	/* background-color: var(--logo-color);
+	background-image: url("../../../public/img/logo/prosto-saniok.svg"); */
+}

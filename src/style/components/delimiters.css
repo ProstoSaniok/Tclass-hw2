@@ -1,0 +1,18 @@
+div.vertical-delimiter-clear {
+    padding: 0 5px;
+}
+
+div.vertical-delimiter-line {
+    background-color: var(--main-color);
+    flex: 0 0 1.5px;
+    align-self: stretch;
+    margin: 0 10px;
+}
+
+div.vertical-delimiter-line[type="dark"] {
+    background-color: var(--dark-color);
+}
+
+div.horizontal-delimiter-clear {
+    padding: 5px 0;
+}

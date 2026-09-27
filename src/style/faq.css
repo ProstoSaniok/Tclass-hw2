@@ -1,0 +1,31 @@
+div.faq-container {
+    display: flex;
+    width: calc(100% + 40px);
+    box-sizing: border-box;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+/* Я отделил этот summary от summary в components/text.css, потому что для fag будет отличаться дизайн */
+details summary {
+    padding: 10px;
+    color: var(--dark-color);
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+}
+
+details p {
+    padding: 10px;
+    color: var(--main-color);
+    background-color: var(--dark-color);
+    border-radius: var(--border-radius);
+}
+
+details {
+    width: 300px;
+    align-self: flex-start;
+}

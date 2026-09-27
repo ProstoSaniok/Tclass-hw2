@@ -1,0 +1,46 @@
+@import "vars.css";
+
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/text.css";
+@import "components/scrollbar.css";
+@import "components/imgs.css";
+@import "components/delimiters.css";
+@import "components/buttons.css";
+@import "components/videos.css";
+@import "faq.css";
+
+::selection {
+  background-color: var(--main-color);
+  color: var(--background-color);
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+main {
+	flex: 1;
+	margin: 0 20px;
+}
+
+li::marker {
+  color: var(--main-color);
+}
+
+.container-recipe {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	min-width: 100px;
+	top: 0px;
+	right: 0px;
+}

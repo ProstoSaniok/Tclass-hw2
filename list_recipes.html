@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/style/main.css">
+    <title>Список рецептов</title>
+</head>
+<body>
+    <main>
+        <header>
+            <button onclick="location.href='index.html'">Главная</button>
+            <button onclick="location.href='list_recipes.html'">Список рецептов</button>
+            <button onclick="location.href='faq.html'">FAQ</button>
+        </header>
+
+        <h1>Список рецептов</h1>
+        <ul>
+            <li><a href="air.html">Ого, воздух</a></li>
+            <li><a href="dumplings.html">Пельмедички</a></li>
+        </ul>
+
+        <img class="background-img" src="public\img\background\list-recipes.png">
+    </main>
+
+    <footer>
+        <div class="container" type="left">
+            <p>2026 Д/З №2</p>
+            <div class="vertical-delimiter-line"></div>
+            <p>Рецепты 1.0</p>
+            <div class="vertical-delimiter-line"></div>
+            <a href="https://github.com">GitHub</a>
+        </div>
+        <!-- Не использую, так как почему-то в браузере маска через span не отображается корректно -->
+        <div class="container" type="right">
+            <!-- <span class="logo-img t-bank-logo" role="img" aria-label="T-bank Logo"></span> -->
+            <img class="logo-img t-bank-logo" src="public/img/logo/t-bank.svg" alt="T-bank Logo">
+            <div class="vertical-delimiter-line" type="dark"></div>
+            <!-- <span class="logo-img prosto-saniok-logo" role="img" aria-label="Prosto Saniok Logo"></span> -->
+            <img class="logo-img prosto-saniok-logo" src="public/img/logo/prosto-saniok.svg" alt="Prosto Saniok Logo">
+        </div>
+    </footer>
+</body>
+</html>

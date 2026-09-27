@@ -1,0 +1,42 @@
+* { /* a, p, summary */
+	color: var(--text-color);
+	font-size: var(--font-size);
+	font-family: var(--font-default);
+}
+
+summary {
+	cursor: pointer;
+}
+
+p.keywords, summary {
+	color: var(--keywords-color);
+}
+
+p.recipe-title {
+	padding: 7px 15px;
+	background-color: var(--dark-color);
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--title-color);
+}
+
+h1, h2 {
+	color: var(--title-color);
+    font-family: var(--font-title);
+    text-align: center;
+	
+}
+
+h1 {
+	font-size: var(--font-size-title1);
+}
+
+h2 {
+	font-size: var(--font-size-title2);
+}

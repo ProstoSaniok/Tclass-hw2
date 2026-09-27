@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'MyTitleFont';
+    src: url('../../public/fonts/PhonkSans-Light.woff2') format('woff2');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyDefaultFont';
+    src: url('../../public/fonts/RobotoMono-VariableFont_wght.woff2') format('woff2');
+    font-weight: normal; 
+    font-style: normal;
+}
+
+:root {
+	--empty-color: rgba(0, 0, 0, 0);
+	--dark-color: rgb(94, 94, 94);
+    --main-color: rgb(189, 189, 189);
+	--light-color: rgb(232, 232, 232);
+	--background-color: var(--dark-color);
+	--title-color: var(--light-color);
+	--text-color: var(--main-color);
+	--keywords-color: var(--light-color);
+	--logo-color: var(--dark-color);
+
+	--font-size: 18px;
+	--font-size-other: 20px;
+	--font-size-title1: 50px;
+	--font-size-title2: 40px;
+
+	--border-radius: 20px;
+
+	--font-title: 'MyTitleFont', sans-serif;
+	--font-default: 'MyDefaultFont', sans-serif;
+}

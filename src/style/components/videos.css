@@ -1,0 +1,4 @@
+video.recipe {
+    width: 200px;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}

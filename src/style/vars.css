@@ -14,9 +14,9 @@
 
 :root {
 	--empty-color: rgba(0, 0, 0, 0);
-	--dark-color: rgb(94, 94, 94);
-    --main-color: rgb(189, 189, 189);
-	--light-color: rgb(232, 232, 232);
+	--dark-color: #5e5e5e;
+    --main-color: #bdbdbd;
+	--light-color: #e8e8e8;
 	--background-color: var(--dark-color);
 	--title-color: var(--light-color);
 	--text-color: var(--main-color);

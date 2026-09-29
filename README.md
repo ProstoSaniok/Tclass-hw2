@@ -10,7 +10,11 @@
 [![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
+Ссылка на сайт: [тык](https://prostosaniok.github.io/Tclass-hw2/)
+
 Небольшой статический сайт с рецептами, FAQ и пошаговыми видеоинструкциями.
+
+Также хотел добавить, что возможно код в каких-то местах выглядит слишком грамоздким, но, к сожалению, по заданию я не могу использовать шаблоны через js и фреймворки :(
 
 ## Запуск
 

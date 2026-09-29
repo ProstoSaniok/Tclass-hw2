@@ -4,8 +4,6 @@
   <img alt="Project Banner" src=".github\assets\banner-dark.png" width="100%">
 </picture>
 
----
-
 [![Версия](https://img.shields.io/badge/version-1.0-blue)](https://github.com/ProstoSaniok)
 [![Статус](https://img.shields.io/badge/status-учебный_проект-yellow)](https://github.com/ProstoSaniok)
 [![Тип](https://img.shields.io/badge/type-static_site-green)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards)
